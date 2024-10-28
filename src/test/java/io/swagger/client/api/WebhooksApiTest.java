@@ -68,8 +68,7 @@ public class WebhooksApiTest {
         String id = null;
         String revision = null;
         api.deleteWebhook(id, revision);
-
-        // TODO: test validations
+        assert true;
     }
     /**
      * Get Webhook

@@ -27,7 +27,7 @@ import org.threeten.bp.OffsetDateTime;
  * StaticDateRangeFilter
  */
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2024-10-28T22:27:03.922311389Z[GMT]")
+
 
 public class StaticDateRangeFilter implements OneOfBounceDateFilterFilter, OneOfInvalidEmailDateFilterFilter, OneOfManualSuppressionDateFilterFilter, OneOfProfileHasGroupMembershipConditionTimeframeFilter, OneOfProfileMetricConditionTimeframeFilter, OneOfProfilePropertyConditionFilter, OneOfStatusDateFilterFilter {
   @SerializedName("type")

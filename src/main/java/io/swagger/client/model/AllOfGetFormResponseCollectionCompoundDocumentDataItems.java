@@ -29,7 +29,7 @@ import java.io.IOException;
  * AllOfGetFormResponseCollectionCompoundDocumentDataItems
  */
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2024-10-28T22:27:03.922311389Z[GMT]")
+
 
 public class AllOfGetFormResponseCollectionCompoundDocumentDataItems extends FormResponseObjectResource {
   @SerializedName("relationships")

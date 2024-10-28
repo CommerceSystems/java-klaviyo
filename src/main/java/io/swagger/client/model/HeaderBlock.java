@@ -27,7 +27,7 @@ import java.io.IOException;
  * HeaderBlock
  */
 
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2024-10-28T22:27:03.922311389Z[GMT]")
+
 
 public class HeaderBlock implements OneOfUniversalContentResponseObjectResourceAttributesDefinition {
   @SerializedName("content_type")

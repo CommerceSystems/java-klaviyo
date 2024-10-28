@@ -28,7 +28,7 @@ import java.util.List;
  * The message(s) associated with the campaign
  */
 @Schema(description = "The message(s) associated with the campaign")
-@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.JavaClientCodegen", date = "2024-10-28T22:27:03.922311389Z[GMT]")
+
 
 public class CampaignCreateQueryResourceObjectAttributesCampaignmessages {
   @SerializedName("data")
