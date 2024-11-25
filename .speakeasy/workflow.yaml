@@ -10,6 +10,12 @@ targets:
     klaviyo-java:
         target: java
         source: Klaviyo API
+        publish:
+            java:
+                ossrhUsername: $ossrh_username
+                ossrhPassword: $ossrh_password
+                gpgSecretKey: $java_gpg_secret_key
+                gpgPassPhrase: $java_gpg_passphrase
         codeSamples:
             registry:
                 location: registry.speakeasyapi.dev/cs-pzi/cs/klaviyo-api-code-samples
