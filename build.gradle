@@ -9,21 +9,25 @@
 // of string where each string value is an additional line in the block) in gen.yaml.
 ////////////////////////////////////////////////////////////////////////////////////////////
 
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.bouncycastle:bcpg-jdk15on:1.70'
+    }
+}
+
+
 plugins {
-    // Apply the java-library plugin for API and implementation separation.
     id 'java-library'
     id 'maven-publish'
     id 'signing'
+    id 'io.codearte.nexus-staging' version '0.30.0'
 }
 
-compileJava.options.encoding = "UTF-8"
-compileJava.options.compilerArgs += '-Xlint:unchecked'
-compileTestJava.options.encoding = "UTF-8"
-
-repositories {
-    // Use Maven Central for resolving dependencies.
-    mavenCentral()
-}
+group = 'com.commercesystems'
+version = '0.0.2'
 
 java {
     sourceCompatibility = JavaVersion.VERSION_11
@@ -32,48 +36,11 @@ java {
     withJavadocJar()
 }
 
-model {
-    tasks.generatePomFileForMavenPublication {
-        destination = file("$buildDir/pom.xml")
-    }
+repositories {
+    mavenCentral()
 }
-
-jar {
-    dependsOn(":generatePomFileForMavenPublication")
-
-    into("META-INF/maven/com.commercesystems/klaviyo-java") {
-        from("$buildDir/pom.xml")
-    }
-}
-
-javadoc {
-    options.encoding = "UTF-8"
-
-    if(JavaVersion.current().isJava9Compatible()) {
-        options.addBooleanOption('html5', true)
-    }
-    options.addStringOption('Xdoclint:none', '-quiet')
-}
-
-tasks.withType(Javadoc) {
-  failOnError false
-  options.addStringOption('Xdoclint:none', '-quiet')
-}
-
-group = "com.commercesystems"
-version = "0.0.2"
-
-sourcesJar {
-    archiveBaseName = "klaviyo-java"
-}
-
-javadocJar {
-    archiveBaseName = "klaviyo-java"
-}
-
 
 publishing {
-
     publications {
         maven(MavenPublication) {
             groupId = 'com.commercesystems'
@@ -83,43 +50,85 @@ publishing {
             from components.java
 
             pom {
-                name = 'My Company Java SDK'
-                description = 'SDK enabling Java developers to easily integrate with the My Company API.'
-                url = 'https://github.com/owner/repo'
+                name = 'Klaviyo Java SDK'
+                description = 'SDK enabling Java developers to easily integrate with the Klaviyo API.'
+                url = 'https://github.com/commercesystems/klaviyo-java'
                 scm {
-                    url = 'github.com/owner/repo'
-                    connection = 'scm:git:ssh://git@github.com/owner/repo.git'
+                    url = 'https://github.com/commercesystems/klaviyo-java'
+                    connection = 'scm:git:git://github.com/commercesystems/klaviyo-java.git'
+                    developerConnection = 'scm:git:ssh://git@github.com/commercesystems/klaviyo-java.git'
                 }
                 licenses {
                     license {
                         name = 'The MIT License (MIT)'
-                        url = 'https://mit-license.org/'
+                        url = 'https://opensource.org/licenses/MIT'
+                        distribution = 'repo'
                     }
                 }
                 developers {
                     developer {
-                        name = 'My Company'
-                        organization = 'My Company'
-                        email = 'info@mycompany.com'
+                        id = 'aaron'
+                        name = 'Aaron Shakibpanah'
+                        email = 'aaron@commercesystems.com'
+                        organization = 'Commerce Systems'
+                        organizationUrl = 'https://www.commercesystems.com'
                     }
                 }
                 organization {
-                    name = 'My Company'
-                    url = 'www.mycompany.com'
+                    name = 'Commerce Systems'
+                    url = 'https://www.commercesystems.com'
                 }
+            }
+        }
+    }
+    repositories {
+        maven {
+            name = "OSSRH"
+            url = "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/"
+            credentials {
+                username = findProperty("ossrhUsername") ?: System.getenv("OSSRH_USERNAME")
+                password = findProperty("ossrhPassword") ?: System.getenv("OSSRH_PASSWORD")
             }
         }
     }
 }
 
-if (!project.hasProperty('skip.signing')) {
-    signing {
-        def signingKey = findProperty("signingKey")
-        def signingPassphrase = findProperty("signingPassphrase")
-        useInMemoryPgpKeys(signingKey, signingPassphrase)
-        sign publishing.publications.maven
+signing {
+    useInMemoryPgpKeys(findProperty('signingKey'), findProperty('signingPassphrase'))
+    sign publishing.publications.maven
+}
+
+task testPgpKey {
+    doLast {
+        def key = findProperty('signingKey')
+        def passphrase = findProperty('signingPassphrase')
+
+        if (key == null || passphrase == null) {
+            println 'Signing key or passphrase not found.'
+            return
+        }
+
+        try {
+            def pgpKeyRingCollection = new org.bouncycastle.openpgp.PGPSecretKeyRingCollection(
+                    org.bouncycastle.openpgp.PGPUtil.getDecoderStream(new ByteArrayInputStream(key.decodeBase64())),
+                    new org.bouncycastle.openpgp.operator.jcajce.JcaKeyFingerprintCalculator()
+            )
+            println 'PGP key successfully read.'
+        } catch (Exception e) {
+            println 'Error reading PGP key: ' + e.message
+            e.printStackTrace()
+        }
     }
 }
+
+
+nexusStaging {
+    packageGroup = 'com.commercesystems'
+    stagingProfileId = 'your-staging-profile-id' // Replace with your actual ID
+    username = findProperty("ossrhUsername")
+    password = findProperty("ossrhPassword")
+}
+
 
 dependencies {
     api 'com.fasterxml.jackson.core:jackson-annotations:2.17.2'
