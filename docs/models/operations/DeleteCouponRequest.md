@@ -1,0 +1,9 @@
+# DeleteCouponRequest
+
+
+## Fields
+
+| Field                                                                                      | Type                                                                                       | Required                                                                                   | Description                                                                                | Example                                                                                    |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| `id`                                                                                       | *String*                                                                                   | :heavy_check_mark:                                                                         | The internal id of a Coupon is equivalent to its external id stored within an integration. | 10OFF                                                                                      |
+| `revision`                                                                                 | *String*                                                                                   | :heavy_check_mark:                                                                         | API endpoint revision (format: YYYY-MM-DD[.suffix])                                        |                                                                                            |

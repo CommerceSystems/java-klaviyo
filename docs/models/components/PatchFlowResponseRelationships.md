@@ -1,0 +1,9 @@
+# PatchFlowResponseRelationships
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `flowActions`                                                                                      | [Optional\<PatchFlowResponseFlowActions>](../../models/components/PatchFlowResponseFlowActions.md) | :heavy_minus_sign:                                                                                 | N/A                                                                                                |
+| `tags`                                                                                             | [Optional\<PatchFlowResponseTags>](../../models/components/PatchFlowResponseTags.md)               | :heavy_minus_sign:                                                                                 | N/A                                                                                                |

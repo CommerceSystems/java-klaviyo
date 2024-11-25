@@ -1,0 +1,12 @@
+# WebhookPartialUpdateQueryResourceObjectAttributes
+
+
+## Fields
+
+| Field                                                        | Type                                                         | Required                                                     | Description                                                  | Example                                                      |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| `name`                                                       | *JsonNullable\<String>*                                      | :heavy_minus_sign:                                           | A name for the webhook.                                      |                                                              |
+| `description`                                                | *JsonNullable\<String>*                                      | :heavy_minus_sign:                                           | A description for the webhook.                               |                                                              |
+| `endpointUrl`                                                | *JsonNullable\<String>*                                      | :heavy_minus_sign:                                           | A url to send webhook calls to. Must be https.               | https://www.example.com/example/path                         |
+| `secretKey`                                                  | *JsonNullable\<String>*                                      | :heavy_minus_sign:                                           | A secret key, that will be used for webhook request signing. |                                                              |
+| `enabled`                                                    | *JsonNullable\<Boolean>*                                     | :heavy_minus_sign:                                           | Is the webhook enabled.                                      |                                                              |

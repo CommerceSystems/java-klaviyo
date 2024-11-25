@@ -1,0 +1,9 @@
+# SendTimeSubObject
+
+
+## Fields
+
+| Field                                                                                     | Type                                                                                      | Required                                                                                  | Description                                                                               | Example                                                                                   |
+| ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| `datetime`                                                                                | [OffsetDateTime](https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html) | :heavy_check_mark:                                                                        | The datetime that the message is to be sent                                               | 2022-11-08T00:00:00+00:00                                                                 |
+| `isLocal`                                                                                 | *boolean*                                                                                 | :heavy_check_mark:                                                                        | Whether that datetime is to be a local datetime for the recipient                         |                                                                                           |

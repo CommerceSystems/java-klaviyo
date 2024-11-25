@@ -1,0 +1,44 @@
+# QueryParamFieldsTrackingSetting
+
+
+## Values
+
+| Name                          | Value                         |
+| ----------------------------- | ----------------------------- |
+| `AUTO_ADD_PARAMETERS`         | auto_add_parameters           |
+| `UTM_SOURCE`                  | utm_source                    |
+| `UTM_SOURCE_FLOW`             | utm_source.flow               |
+| `UTM_SOURCE_FLOW_TYPE`        | utm_source.flow.type          |
+| `UTM_SOURCE_FLOW_VALUE`       | utm_source.flow.value         |
+| `UTM_SOURCE_CAMPAIGN`         | utm_source.campaign           |
+| `UTM_SOURCE_CAMPAIGN_TYPE`    | utm_source.campaign.type      |
+| `UTM_SOURCE_CAMPAIGN_VALUE`   | utm_source.campaign.value     |
+| `UTM_MEDIUM`                  | utm_medium                    |
+| `UTM_MEDIUM_FLOW`             | utm_medium.flow               |
+| `UTM_MEDIUM_FLOW_TYPE`        | utm_medium.flow.type          |
+| `UTM_MEDIUM_FLOW_VALUE`       | utm_medium.flow.value         |
+| `UTM_MEDIUM_CAMPAIGN`         | utm_medium.campaign           |
+| `UTM_MEDIUM_CAMPAIGN_TYPE`    | utm_medium.campaign.type      |
+| `UTM_MEDIUM_CAMPAIGN_VALUE`   | utm_medium.campaign.value     |
+| `UTM_CAMPAIGN`                | utm_campaign                  |
+| `UTM_CAMPAIGN_FLOW`           | utm_campaign.flow             |
+| `UTM_CAMPAIGN_FLOW_TYPE`      | utm_campaign.flow.type        |
+| `UTM_CAMPAIGN_FLOW_VALUE`     | utm_campaign.flow.value       |
+| `UTM_CAMPAIGN_CAMPAIGN`       | utm_campaign.campaign         |
+| `UTM_CAMPAIGN_CAMPAIGN_TYPE`  | utm_campaign.campaign.type    |
+| `UTM_CAMPAIGN_CAMPAIGN_VALUE` | utm_campaign.campaign.value   |
+| `UTM_ID`                      | utm_id                        |
+| `UTM_ID_FLOW`                 | utm_id.flow                   |
+| `UTM_ID_FLOW_TYPE`            | utm_id.flow.type              |
+| `UTM_ID_FLOW_VALUE`           | utm_id.flow.value             |
+| `UTM_ID_CAMPAIGN`             | utm_id.campaign               |
+| `UTM_ID_CAMPAIGN_TYPE`        | utm_id.campaign.type          |
+| `UTM_ID_CAMPAIGN_VALUE`       | utm_id.campaign.value         |
+| `UTM_TERM`                    | utm_term                      |
+| `UTM_TERM_FLOW`               | utm_term.flow                 |
+| `UTM_TERM_FLOW_TYPE`          | utm_term.flow.type            |
+| `UTM_TERM_FLOW_VALUE`         | utm_term.flow.value           |
+| `UTM_TERM_CAMPAIGN`           | utm_term.campaign             |
+| `UTM_TERM_CAMPAIGN_TYPE`      | utm_term.campaign.type        |
+| `UTM_TERM_CAMPAIGN_VALUE`     | utm_term.campaign.value       |
+| `CUSTOM_PARAMETERS`           | custom_parameters             |

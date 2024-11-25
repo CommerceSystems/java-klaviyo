@@ -1,0 +1,9 @@
+# BulkDeleteCatalogVariantsRequest
+
+
+## Fields
+
+| Field                                                                                               | Type                                                                                                | Required                                                                                            | Description                                                                                         |
+| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `revision`                                                                                          | *String*                                                                                            | :heavy_check_mark:                                                                                  | API endpoint revision (format: YYYY-MM-DD[.suffix])                                                 |
+| `catalogVariantDeleteJobCreateQuery`                                                                | [CatalogVariantDeleteJobCreateQuery](../../models/components/CatalogVariantDeleteJobCreateQuery.md) | :heavy_check_mark:                                                                                  | N/A                                                                                                 |

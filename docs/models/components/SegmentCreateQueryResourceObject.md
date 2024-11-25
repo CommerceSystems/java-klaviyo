@@ -1,0 +1,9 @@
+# SegmentCreateQueryResourceObject
+
+
+## Fields
+
+| Field                                                                                                               | Type                                                                                                                | Required                                                                                                            | Description                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| `type`                                                                                                              | [SegmentEnum](../../models/components/SegmentEnum.md)                                                               | :heavy_check_mark:                                                                                                  | N/A                                                                                                                 |
+| `attributes`                                                                                                        | [SegmentCreateQueryResourceObjectAttributes](../../models/components/SegmentCreateQueryResourceObjectAttributes.md) | :heavy_check_mark:                                                                                                  | N/A                                                                                                                 |

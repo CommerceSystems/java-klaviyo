@@ -1,0 +1,9 @@
+# GetProfileResponseRelationships
+
+
+## Fields
+
+| Field                                                                                          | Type                                                                                           | Required                                                                                       | Description                                                                                    |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| `lists`                                                                                        | [Optional\<GetProfileResponseLists>](../../models/components/GetProfileResponseLists.md)       | :heavy_minus_sign:                                                                             | N/A                                                                                            |
+| `segments`                                                                                     | [Optional\<GetProfileResponseSegments>](../../models/components/GetProfileResponseSegments.md) | :heavy_minus_sign:                                                                             | N/A                                                                                            |

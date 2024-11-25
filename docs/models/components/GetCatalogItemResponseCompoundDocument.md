@@ -1,0 +1,9 @@
+# GetCatalogItemResponseCompoundDocument
+
+
+## Fields
+
+| Field                                                                                                               | Type                                                                                                                | Required                                                                                                            | Description                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                              | [GetCatalogItemResponseCompoundDocumentData](../../models/components/GetCatalogItemResponseCompoundDocumentData.md) | :heavy_check_mark:                                                                                                  | N/A                                                                                                                 |
+| `included`                                                                                                          | List\<[CatalogVariantResponseObjectResource](../../models/components/CatalogVariantResponseObjectResource.md)>      | :heavy_minus_sign:                                                                                                  | N/A                                                                                                                 |

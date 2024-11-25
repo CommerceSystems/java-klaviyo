@@ -1,0 +1,10 @@
+# ListSubstringFilter
+
+
+## Fields
+
+| Field                                                                                             | Type                                                                                              | Required                                                                                          | Description                                                                                       |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| `type`                                                                                            | [ListEnum](../../models/components/ListEnum.md)                                                   | :heavy_check_mark:                                                                                | N/A                                                                                               |
+| `operator`                                                                                        | [ListSubstringFilterFilterOperator](../../models/components/ListSubstringFilterFilterOperator.md) | :heavy_check_mark:                                                                                | Operators for list substring filters.                                                             |
+| `value`                                                                                           | *Optional\<String>*                                                                               | :heavy_check_mark:                                                                                | N/A                                                                                               |

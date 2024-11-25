@@ -1,0 +1,10 @@
+# UpdateCampaignMessageRequest
+
+
+## Fields
+
+| Field                                                                                             | Type                                                                                              | Required                                                                                          | Description                                                                                       |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| `id`                                                                                              | *String*                                                                                          | :heavy_check_mark:                                                                                | The message ID to be retrieved                                                                    |
+| `revision`                                                                                        | *String*                                                                                          | :heavy_check_mark:                                                                                | API endpoint revision (format: YYYY-MM-DD[.suffix])                                               |
+| `campaignMessagePartialUpdateQuery`                                                               | [CampaignMessagePartialUpdateQuery](../../models/components/CampaignMessagePartialUpdateQuery.md) | :heavy_check_mark:                                                                                | Update a message and return it                                                                    |

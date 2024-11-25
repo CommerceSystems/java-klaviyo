@@ -1,0 +1,10 @@
+# UnionPositiveNumericFilter
+
+
+## Fields
+
+| Field                                                                                               | Type                                                                                                | Required                                                                                            | Description                                                                                         |
+| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `type`                                                                                              | [NumericEnum](../../models/components/NumericEnum.md)                                               | :heavy_check_mark:                                                                                  | N/A                                                                                                 |
+| `operator`                                                                                          | [UnionPositiveNumericFilterOperator](../../models/components/UnionPositiveNumericFilterOperator.md) | :heavy_check_mark:                                                                                  | N/A                                                                                                 |
+| `value`                                                                                             | [UnionPositiveNumericFilterValue](../../models/components/UnionPositiveNumericFilterValue.md)       | :heavy_check_mark:                                                                                  | N/A                                                                                                 |

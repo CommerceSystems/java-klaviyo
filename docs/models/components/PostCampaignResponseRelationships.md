@@ -1,0 +1,9 @@
+# PostCampaignResponseRelationships
+
+
+## Fields
+
+| Field                                                                                                              | Type                                                                                                               | Required                                                                                                           | Description                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| `campaignMessages`                                                                                                 | [Optional\<PostCampaignResponseCampaignMessages>](../../models/components/PostCampaignResponseCampaignMessages.md) | :heavy_minus_sign:                                                                                                 | N/A                                                                                                                |
+| `tags`                                                                                                             | [Optional\<PostCampaignResponseTags>](../../models/components/PostCampaignResponseTags.md)                         | :heavy_minus_sign:                                                                                                 | N/A                                                                                                                |

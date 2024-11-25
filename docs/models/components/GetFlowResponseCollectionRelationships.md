@@ -1,0 +1,9 @@
+# GetFlowResponseCollectionRelationships
+
+
+## Fields
+
+| Field                                                                                                              | Type                                                                                                               | Required                                                                                                           | Description                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| `flowActions`                                                                                                      | [Optional\<GetFlowResponseCollectionFlowActions>](../../models/components/GetFlowResponseCollectionFlowActions.md) | :heavy_minus_sign:                                                                                                 | N/A                                                                                                                |
+| `tags`                                                                                                             | [Optional\<GetFlowResponseCollectionTags>](../../models/components/GetFlowResponseCollectionTags.md)               | :heavy_minus_sign:                                                                                                 | N/A                                                                                                                |

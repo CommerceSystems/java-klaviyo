@@ -1,0 +1,9 @@
+# CouponCreateQueryResourceObject
+
+
+## Fields
+
+| Field                                                                                                             | Type                                                                                                              | Required                                                                                                          | Description                                                                                                       |
+| ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `type`                                                                                                            | [CouponEnum](../../models/components/CouponEnum.md)                                                               | :heavy_check_mark:                                                                                                | N/A                                                                                                               |
+| `attributes`                                                                                                      | [CouponCreateQueryResourceObjectAttributes](../../models/components/CouponCreateQueryResourceObjectAttributes.md) | :heavy_check_mark:                                                                                                | N/A                                                                                                               |

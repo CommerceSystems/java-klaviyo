@@ -1,0 +1,9 @@
+# PostFormValuesResponseDTOData
+
+
+## Fields
+
+| Field                                                                                                 | Type                                                                                                  | Required                                                                                              | Description                                                                                           |
+| ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `type`                                                                                                | [FormValuesReportEnum](../../models/components/FormValuesReportEnum.md)                               | :heavy_check_mark:                                                                                    | N/A                                                                                                   |
+| `attributes`                                                                                          | [PostFormValuesResponseDTOAttributes](../../models/components/PostFormValuesResponseDTOAttributes.md) | :heavy_check_mark:                                                                                    | N/A                                                                                                   |

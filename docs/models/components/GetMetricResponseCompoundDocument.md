@@ -1,0 +1,9 @@
+# GetMetricResponseCompoundDocument
+
+
+## Fields
+
+| Field                                                                                                     | Type                                                                                                      | Required                                                                                                  | Description                                                                                               |
+| --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                    | [GetMetricResponseCompoundDocumentData](../../models/components/GetMetricResponseCompoundDocumentData.md) | :heavy_check_mark:                                                                                        | N/A                                                                                                       |
+| `included`                                                                                                | List\<[FlowResponseObjectResource](../../models/components/FlowResponseObjectResource.md)>                | :heavy_minus_sign:                                                                                        | N/A                                                                                                       |

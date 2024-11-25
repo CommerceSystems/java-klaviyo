@@ -1,0 +1,9 @@
+# PostProfileResponseRelationships
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `lists`                                                                                          | [Optional\<PostProfileResponseLists>](../../models/components/PostProfileResponseLists.md)       | :heavy_minus_sign:                                                                               | N/A                                                                                              |
+| `segments`                                                                                       | [Optional\<PostProfileResponseSegments>](../../models/components/PostProfileResponseSegments.md) | :heavy_minus_sign:                                                                               | N/A                                                                                              |

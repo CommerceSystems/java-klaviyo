@@ -1,0 +1,9 @@
+# GetCampaignResponseRelationships
+
+
+## Fields
+
+| Field                                                                                                            | Type                                                                                                             | Required                                                                                                         | Description                                                                                                      |
+| ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `campaignMessages`                                                                                               | [Optional\<GetCampaignResponseCampaignMessages>](../../models/components/GetCampaignResponseCampaignMessages.md) | :heavy_minus_sign:                                                                                               | N/A                                                                                                              |
+| `tags`                                                                                                           | [Optional\<GetCampaignResponseTags>](../../models/components/GetCampaignResponseTags.md)                         | :heavy_minus_sign:                                                                                               | N/A                                                                                                              |

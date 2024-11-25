@@ -1,0 +1,10 @@
+# StringOperatorFilter
+
+
+## Fields
+
+| Field                                                                                   | Type                                                                                    | Required                                                                                | Description                                                                             |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| `type`                                                                                  | [StringEnum](../../models/components/StringEnum.md)                                     | :heavy_check_mark:                                                                      | N/A                                                                                     |
+| `operator`                                                                              | [StringOperatorFilterOperator](../../models/components/StringOperatorFilterOperator.md) | :heavy_check_mark:                                                                      | Operators for string filters.                                                           |
+| `value`                                                                                 | *Optional\<String>*                                                                     | :heavy_check_mark:                                                                      | N/A                                                                                     |

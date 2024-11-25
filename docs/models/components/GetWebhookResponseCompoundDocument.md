@@ -1,0 +1,9 @@
+# GetWebhookResponseCompoundDocument
+
+
+## Fields
+
+| Field                                                                                                       | Type                                                                                                        | Required                                                                                                    | Description                                                                                                 |
+| ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                      | [GetWebhookResponseCompoundDocumentData](../../models/components/GetWebhookResponseCompoundDocumentData.md) | :heavy_check_mark:                                                                                          | N/A                                                                                                         |
+| `included`                                                                                                  | List\<[WebhookTopicResponseObjectResource](../../models/components/WebhookTopicResponseObjectResource.md)>  | :heavy_minus_sign:                                                                                          | N/A                                                                                                         |

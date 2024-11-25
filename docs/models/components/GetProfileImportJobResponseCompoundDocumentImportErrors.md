@@ -1,0 +1,8 @@
+# GetProfileImportJobResponseCompoundDocumentImportErrors
+
+
+## Fields
+
+| Field                                                                      | Type                                                                       | Required                                                                   | Description                                                                |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| `links`                                                                    | [Optional\<OnlyRelatedLinks>](../../models/components/OnlyRelatedLinks.md) | :heavy_minus_sign:                                                         | N/A                                                                        |

@@ -1,0 +1,9 @@
+# PostSegmentValuesResponseDTOData
+
+
+## Fields
+
+| Field                                                                                                       | Type                                                                                                        | Required                                                                                                    | Description                                                                                                 |
+| ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| `type`                                                                                                      | [SegmentValuesReportEnum](../../models/components/SegmentValuesReportEnum.md)                               | :heavy_check_mark:                                                                                          | N/A                                                                                                         |
+| `attributes`                                                                                                | [PostSegmentValuesResponseDTOAttributes](../../models/components/PostSegmentValuesResponseDTOAttributes.md) | :heavy_check_mark:                                                                                          | N/A                                                                                                         |

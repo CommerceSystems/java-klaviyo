@@ -1,0 +1,9 @@
+# ManualSuppressionDateFilter
+
+
+## Fields
+
+| Field                                                                                             | Type                                                                                              | Required                                                                                          | Description                                                                                       |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| `field`                                                                                           | [ManualSuppressionDateEnum](../../models/components/ManualSuppressionDateEnum.md)                 | :heavy_check_mark:                                                                                | N/A                                                                                               |
+| `filter`                                                                                          | [ManualSuppressionDateFilterFilter](../../models/components/ManualSuppressionDateFilterFilter.md) | :heavy_check_mark:                                                                                | N/A                                                                                               |

@@ -1,0 +1,9 @@
+# ListCreateQueryResourceObject
+
+
+## Fields
+
+| Field                                                                                                         | Type                                                                                                          | Required                                                                                                      | Description                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| `type`                                                                                                        | [ListEnum](../../models/components/ListEnum.md)                                                               | :heavy_check_mark:                                                                                            | N/A                                                                                                           |
+| `attributes`                                                                                                  | [ListCreateQueryResourceObjectAttributes](../../models/components/ListCreateQueryResourceObjectAttributes.md) | :heavy_check_mark:                                                                                            | N/A                                                                                                           |

@@ -1,0 +1,8 @@
+# CatalogItemCreateJobCreateQueryResourceObjectAttributes
+
+
+## Fields
+
+| Field                                                                                                                               | Type                                                                                                                                | Required                                                                                                                            | Description                                                                                                                         |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| `items`                                                                                                                             | [CatalogItemCreateJobCreateQueryResourceObjectItems](../../models/components/CatalogItemCreateJobCreateQueryResourceObjectItems.md) | :heavy_check_mark:                                                                                                                  | Array of catalog items to create.                                                                                                   |

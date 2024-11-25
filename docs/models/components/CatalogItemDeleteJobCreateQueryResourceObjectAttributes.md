@@ -1,0 +1,8 @@
+# CatalogItemDeleteJobCreateQueryResourceObjectAttributes
+
+
+## Fields
+
+| Field                                                                                                                               | Type                                                                                                                                | Required                                                                                                                            | Description                                                                                                                         |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| `items`                                                                                                                             | [CatalogItemDeleteJobCreateQueryResourceObjectItems](../../models/components/CatalogItemDeleteJobCreateQueryResourceObjectItems.md) | :heavy_check_mark:                                                                                                                  | Array of catalog items to delete.                                                                                                   |

@@ -1,0 +1,9 @@
+# AssignTemplateToCampaignMessageRequest
+
+
+## Fields
+
+| Field                                                                                               | Type                                                                                                | Required                                                                                            | Description                                                                                         |
+| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `revision`                                                                                          | *String*                                                                                            | :heavy_check_mark:                                                                                  | API endpoint revision (format: YYYY-MM-DD[.suffix])                                                 |
+| `campaignMessageAssignTemplateQuery`                                                                | [CampaignMessageAssignTemplateQuery](../../models/components/CampaignMessageAssignTemplateQuery.md) | :heavy_check_mark:                                                                                  | Takes a reusable template, clones it, and assigns the non-reusable clone to the message.            |

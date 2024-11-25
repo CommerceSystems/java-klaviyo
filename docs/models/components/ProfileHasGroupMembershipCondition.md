@@ -1,0 +1,11 @@
+# ProfileHasGroupMembershipCondition
+
+
+## Fields
+
+| Field                                                                               | Type                                                                                | Required                                                                            | Description                                                                         |
+| ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| `type`                                                                              | [ProfileGroupMembershipEnum](../../models/components/ProfileGroupMembershipEnum.md) | :heavy_check_mark:                                                                  | N/A                                                                                 |
+| `isMember`                                                                          | [IsMember](../../models/components/IsMember.md)                                     | :heavy_check_mark:                                                                  | N/A                                                                                 |
+| `groupIds`                                                                          | List\<*String*>                                                                     | :heavy_check_mark:                                                                  | N/A                                                                                 |
+| `timeframeFilter`                                                                   | [JsonNullable\<TimeframeFilter>](../../models/components/TimeframeFilter.md)        | :heavy_minus_sign:                                                                  | N/A                                                                                 |

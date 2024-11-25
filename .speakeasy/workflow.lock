@@ -1,0 +1,34 @@
+speakeasyVersion: 1.445.1
+sources:
+    Klaviyo API:
+        sourceNamespace: klaviyo-api
+        sourceRevisionDigest: sha256:ecfd00745440ce0df75acc1bfe140eeebcc1cd3042aac5f50301e7b70cadc24b
+        sourceBlobDigest: sha256:3e8574b5b4a29b0d2fdbb43de85d828e00001105aad9badd21c01eb6063506fb
+        tags:
+            - latest
+            - "2024-10-15"
+targets:
+    klaviyo-java:
+        source: Klaviyo API
+        sourceNamespace: klaviyo-api
+        sourceRevisionDigest: sha256:ecfd00745440ce0df75acc1bfe140eeebcc1cd3042aac5f50301e7b70cadc24b
+        sourceBlobDigest: sha256:3e8574b5b4a29b0d2fdbb43de85d828e00001105aad9badd21c01eb6063506fb
+        codeSamplesNamespace: klaviyo-api-code-samples
+        codeSamplesRevisionDigest: sha256:57a6564f24a06a1972f99ccc17fb2534e0b76279cec60cc59b362ceef9b85abc
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        Klaviyo API:
+            inputs:
+                - location: ../stable-2.json
+            registry:
+                location: registry.speakeasyapi.dev/cs-pzi/cs/klaviyo-api
+    targets:
+        klaviyo-java:
+            target: java
+            source: Klaviyo API
+            codeSamples:
+                registry:
+                    location: registry.speakeasyapi.dev/cs-pzi/cs/klaviyo-api-code-samples
+                blocking: false

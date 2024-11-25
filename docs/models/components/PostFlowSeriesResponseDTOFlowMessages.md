@@ -1,0 +1,9 @@
+# PostFlowSeriesResponseDTOFlowMessages
+
+
+## Fields
+
+| Field                                                                                                    | Type                                                                                                     | Required                                                                                                 | Description                                                                                              |
+| -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                   | List\<[PostFlowSeriesResponseDTODataData](../../models/components/PostFlowSeriesResponseDTODataData.md)> | :heavy_minus_sign:                                                                                       | N/A                                                                                                      |
+| `links`                                                                                                  | [Optional\<RelationshipLinks>](../../models/components/RelationshipLinks.md)                             | :heavy_minus_sign:                                                                                       | N/A                                                                                                      |

@@ -1,0 +1,9 @@
+# PatchCampaignMessageResponseTemplate
+
+
+## Fields
+
+| Field                                                                                                              | Type                                                                                                               | Required                                                                                                           | Description                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| `data`                                                                                                             | [Optional\<PatchCampaignMessageResponseDataData>](../../models/components/PatchCampaignMessageResponseDataData.md) | :heavy_minus_sign:                                                                                                 | N/A                                                                                                                |
+| `links`                                                                                                            | [Optional\<RelationshipLinks>](../../models/components/RelationshipLinks.md)                                       | :heavy_minus_sign:                                                                                                 | N/A                                                                                                                |

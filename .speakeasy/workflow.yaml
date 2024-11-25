@@ -1,0 +1,16 @@
+workflowVersion: 1.0.0
+speakeasyVersion: latest
+sources:
+    Klaviyo API:
+        inputs:
+            - location: ../stable-2.json
+        registry:
+            location: registry.speakeasyapi.dev/cs-pzi/cs/klaviyo-api
+targets:
+    klaviyo-java:
+        target: java
+        source: Klaviyo API
+        codeSamples:
+            registry:
+                location: registry.speakeasyapi.dev/cs-pzi/cs/klaviyo-api-code-samples
+            blocking: false

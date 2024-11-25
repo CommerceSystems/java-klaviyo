@@ -1,0 +1,9 @@
+# GetWebhookTopicResponseCollection
+
+
+## Fields
+
+| Field                                                                                                      | Type                                                                                                       | Required                                                                                                   | Description                                                                                                |
+| ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                     | List\<[WebhookTopicResponseObjectResource](../../models/components/WebhookTopicResponseObjectResource.md)> | :heavy_check_mark:                                                                                         | N/A                                                                                                        |
+| `links`                                                                                                    | [Optional\<CollectionLinks>](../../models/components/CollectionLinks.md)                                   | :heavy_minus_sign:                                                                                         | N/A                                                                                                        |

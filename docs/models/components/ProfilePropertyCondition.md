@@ -1,0 +1,10 @@
+# ProfilePropertyCondition
+
+
+## Fields
+
+| Field                                                                                       | Type                                                                                        | Required                                                                                    | Description                                                                                 |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| `type`                                                                                      | [ProfilePropertyEnum](../../models/components/ProfilePropertyEnum.md)                       | :heavy_check_mark:                                                                          | N/A                                                                                         |
+| `property`                                                                                  | *String*                                                                                    | :heavy_check_mark:                                                                          | N/A                                                                                         |
+| `filter`                                                                                    | [ProfilePropertyConditionFilter](../../models/components/ProfilePropertyConditionFilter.md) | :heavy_check_mark:                                                                          | N/A                                                                                         |

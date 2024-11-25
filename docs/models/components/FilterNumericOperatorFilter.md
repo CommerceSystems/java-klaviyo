@@ -1,0 +1,10 @@
+# FilterNumericOperatorFilter
+
+
+## Fields
+
+| Field                                                                                                 | Type                                                                                                  | Required                                                                                              | Description                                                                                           |
+| ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `type`                                                                                                | [NumericEnum](../../models/components/NumericEnum.md)                                                 | :heavy_check_mark:                                                                                    | N/A                                                                                                   |
+| `operator`                                                                                            | [NumericOperatorFilterFilterOperator](../../models/components/NumericOperatorFilterFilterOperator.md) | :heavy_check_mark:                                                                                    | Operators for numeric filters.                                                                        |
+| `value`                                                                                               | [FilterValue](../../models/components/FilterValue.md)                                                 | :heavy_check_mark:                                                                                    | N/A                                                                                                   |

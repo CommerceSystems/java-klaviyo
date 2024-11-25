@@ -1,0 +1,9 @@
+# ImageCreateQueryResourceObject
+
+
+## Fields
+
+| Field                                                                                                           | Type                                                                                                            | Required                                                                                                        | Description                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| `type`                                                                                                          | [ImageEnum](../../models/components/ImageEnum.md)                                                               | :heavy_check_mark:                                                                                              | N/A                                                                                                             |
+| `attributes`                                                                                                    | [ImageCreateQueryResourceObjectAttributes](../../models/components/ImageCreateQueryResourceObjectAttributes.md) | :heavy_check_mark:                                                                                              | N/A                                                                                                             |

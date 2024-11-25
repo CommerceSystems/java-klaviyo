@@ -1,0 +1,9 @@
+# MetricCreateQueryResourceObject
+
+
+## Fields
+
+| Field                                                                                                             | Type                                                                                                              | Required                                                                                                          | Description                                                                                                       |
+| ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `type`                                                                                                            | [MetricEnum](../../models/components/MetricEnum.md)                                                               | :heavy_check_mark:                                                                                                | N/A                                                                                                               |
+| `attributes`                                                                                                      | [MetricCreateQueryResourceObjectAttributes](../../models/components/MetricCreateQueryResourceObjectAttributes.md) | :heavy_check_mark:                                                                                                | N/A                                                                                                               |

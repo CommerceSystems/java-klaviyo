@@ -1,0 +1,9 @@
+# SubscriptionCreateJobCreateQueryResourceObjectData
+
+
+## Fields
+
+| Field                                            | Type                                             | Required                                         | Description                                      | Example                                          |
+| ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ |
+| `type`                                           | [ListEnum](../../models/components/ListEnum.md)  | :heavy_check_mark:                               | N/A                                              |                                                  |
+| `id`                                             | *String*                                         | :heavy_check_mark:                               | The list to add the newly subscribed profiles to | Y6nRLr                                           |

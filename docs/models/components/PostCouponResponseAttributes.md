@@ -1,0 +1,9 @@
+# PostCouponResponseAttributes
+
+
+## Fields
+
+| Field                                                                       | Type                                                                        | Required                                                                    | Description                                                                 | Example                                                                     |
+| --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| `externalId`                                                                | *String*                                                                    | :heavy_check_mark:                                                          | This is the id that is stored in an integration such as Shopify or Magento. | 10OFF                                                                       |
+| `description`                                                               | *JsonNullable\<String>*                                                     | :heavy_minus_sign:                                                          | A description of the coupon.                                                | 10% off for purchases over $50                                              |

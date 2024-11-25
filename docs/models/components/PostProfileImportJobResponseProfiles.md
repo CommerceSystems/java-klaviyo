@@ -1,0 +1,9 @@
+# PostProfileImportJobResponseProfiles
+
+
+## Fields
+
+| Field                                                                                                          | Type                                                                                                           | Required                                                                                                       | Description                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                         | List\<[PostProfileImportJobResponseDataData](../../models/components/PostProfileImportJobResponseDataData.md)> | :heavy_minus_sign:                                                                                             | N/A                                                                                                            |
+| `links`                                                                                                        | [Optional\<RelationshipLinks>](../../models/components/RelationshipLinks.md)                                   | :heavy_minus_sign:                                                                                             | N/A                                                                                                            |

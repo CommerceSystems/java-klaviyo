@@ -1,0 +1,9 @@
+# SubscriptionChannels
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `email`                                                                                          | [Optional\<EmailSubscriptionParameters>](../../models/components/EmailSubscriptionParameters.md) | :heavy_minus_sign:                                                                               | N/A                                                                                              |
+| `sms`                                                                                            | [Optional\<SMSSubscriptionParameters>](../../models/components/SMSSubscriptionParameters.md)     | :heavy_minus_sign:                                                                               | N/A                                                                                              |

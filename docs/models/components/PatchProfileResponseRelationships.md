@@ -1,0 +1,9 @@
+# PatchProfileResponseRelationships
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `lists`                                                                                            | [Optional\<PatchProfileResponseLists>](../../models/components/PatchProfileResponseLists.md)       | :heavy_minus_sign:                                                                                 | N/A                                                                                                |
+| `segments`                                                                                         | [Optional\<PatchProfileResponseSegments>](../../models/components/PatchProfileResponseSegments.md) | :heavy_minus_sign:                                                                                 | N/A                                                                                                |

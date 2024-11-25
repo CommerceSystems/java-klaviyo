@@ -1,0 +1,9 @@
+# CampaignRecipientEstimationJobCreateQueryResourceObject
+
+
+## Fields
+
+| Field                                                                                               | Type                                                                                                | Required                                                                                            | Description                                                                                         |
+| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `type`                                                                                              | [CampaignRecipientEstimationJobEnum](../../models/components/CampaignRecipientEstimationJobEnum.md) | :heavy_check_mark:                                                                                  | N/A                                                                                                 |
+| `id`                                                                                                | *String*                                                                                            | :heavy_check_mark:                                                                                  | The ID of the campaign to perform recipient estimation                                              |

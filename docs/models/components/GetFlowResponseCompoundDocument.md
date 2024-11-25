@@ -1,0 +1,9 @@
+# GetFlowResponseCompoundDocument
+
+
+## Fields
+
+| Field                                                                                                                | Type                                                                                                                 | Required                                                                                                             | Description                                                                                                          |
+| -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                               | [GetFlowResponseCompoundDocumentData](../../models/components/GetFlowResponseCompoundDocumentData.md)                | :heavy_check_mark:                                                                                                   | N/A                                                                                                                  |
+| `included`                                                                                                           | List\<[GetFlowResponseCompoundDocumentIncluded](../../models/components/GetFlowResponseCompoundDocumentIncluded.md)> | :heavy_minus_sign:                                                                                                   | N/A                                                                                                                  |

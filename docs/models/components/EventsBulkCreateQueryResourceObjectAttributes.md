@@ -1,0 +1,9 @@
+# EventsBulkCreateQueryResourceObjectAttributes
+
+
+## Fields
+
+| Field                                                                                                               | Type                                                                                                                | Required                                                                                                            | Description                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| `profile`                                                                                                           | [EventsBulkCreateQueryResourceObjectProfile](../../models/components/EventsBulkCreateQueryResourceObjectProfile.md) | :heavy_check_mark:                                                                                                  | N/A                                                                                                                 |
+| `events`                                                                                                            | [Events](../../models/components/Events.md)                                                                         | :heavy_check_mark:                                                                                                  | N/A                                                                                                                 |

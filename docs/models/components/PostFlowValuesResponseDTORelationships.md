@@ -1,0 +1,9 @@
+# PostFlowValuesResponseDTORelationships
+
+
+## Fields
+
+| Field                                                                                                                | Type                                                                                                                 | Required                                                                                                             | Description                                                                                                          |
+| -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| `flows`                                                                                                              | [Optional\<PostFlowValuesResponseDTOFlows>](../../models/components/PostFlowValuesResponseDTOFlows.md)               | :heavy_minus_sign:                                                                                                   | N/A                                                                                                                  |
+| `flowMessages`                                                                                                       | [Optional\<PostFlowValuesResponseDTOFlowMessages>](../../models/components/PostFlowValuesResponseDTOFlowMessages.md) | :heavy_minus_sign:                                                                                                   | N/A                                                                                                                  |

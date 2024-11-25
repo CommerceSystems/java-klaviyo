@@ -1,0 +1,9 @@
+# PostCatalogItemResponseVariants
+
+
+## Fields
+
+| Field                                                                                                | Type                                                                                                 | Required                                                                                             | Description                                                                                          |
+| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `data`                                                                                               | List\<[PostCatalogItemResponseDataData](../../models/components/PostCatalogItemResponseDataData.md)> | :heavy_minus_sign:                                                                                   | N/A                                                                                                  |
+| `links`                                                                                              | [Optional\<RelationshipLinks>](../../models/components/RelationshipLinks.md)                         | :heavy_minus_sign:                                                                                   | N/A                                                                                                  |

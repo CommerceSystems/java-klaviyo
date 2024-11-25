@@ -1,0 +1,9 @@
+# PatchCouponCodeResponseRelationships
+
+
+## Fields
+
+| Field                                                                                                  | Type                                                                                                   | Required                                                                                               | Description                                                                                            |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| `coupon`                                                                                               | [Optional\<PatchCouponCodeResponseCoupon>](../../models/components/PatchCouponCodeResponseCoupon.md)   | :heavy_minus_sign:                                                                                     | N/A                                                                                                    |
+| `profile`                                                                                              | [Optional\<PatchCouponCodeResponseProfile>](../../models/components/PatchCouponCodeResponseProfile.md) | :heavy_minus_sign:                                                                                     | N/A                                                                                                    |

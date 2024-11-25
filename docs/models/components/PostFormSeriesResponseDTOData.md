@@ -1,0 +1,9 @@
+# PostFormSeriesResponseDTOData
+
+
+## Fields
+
+| Field                                                                                                 | Type                                                                                                  | Required                                                                                              | Description                                                                                           |
+| ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `type`                                                                                                | [FormSeriesReportEnum](../../models/components/FormSeriesReportEnum.md)                               | :heavy_check_mark:                                                                                    | N/A                                                                                                   |
+| `attributes`                                                                                          | [PostFormSeriesResponseDTOAttributes](../../models/components/PostFormSeriesResponseDTOAttributes.md) | :heavy_check_mark:                                                                                    | N/A                                                                                                   |

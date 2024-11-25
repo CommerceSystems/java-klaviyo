@@ -1,0 +1,9 @@
+# PostSegmentSeriesResponseDTOData
+
+
+## Fields
+
+| Field                                                                                                       | Type                                                                                                        | Required                                                                                                    | Description                                                                                                 |
+| ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| `type`                                                                                                      | [SegmentSeriesReportEnum](../../models/components/SegmentSeriesReportEnum.md)                               | :heavy_check_mark:                                                                                          | N/A                                                                                                         |
+| `attributes`                                                                                                | [PostSegmentSeriesResponseDTOAttributes](../../models/components/PostSegmentSeriesResponseDTOAttributes.md) | :heavy_check_mark:                                                                                          | N/A                                                                                                         |

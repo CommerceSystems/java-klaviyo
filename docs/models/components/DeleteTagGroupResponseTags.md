@@ -1,0 +1,9 @@
+# DeleteTagGroupResponseTags
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `data`                                                                                             | List\<[DeleteTagGroupResponseDataData](../../models/components/DeleteTagGroupResponseDataData.md)> | :heavy_minus_sign:                                                                                 | N/A                                                                                                |
+| `links`                                                                                            | [Optional\<RelationshipLinks>](../../models/components/RelationshipLinks.md)                       | :heavy_minus_sign:                                                                                 | N/A                                                                                                |

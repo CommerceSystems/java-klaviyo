@@ -1,0 +1,8 @@
+# CatalogItemUpdateJobCreateQueryResourceObjectAttributes
+
+
+## Fields
+
+| Field                                                                                                                               | Type                                                                                                                                | Required                                                                                                                            | Description                                                                                                                         |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| `items`                                                                                                                             | [CatalogItemUpdateJobCreateQueryResourceObjectItems](../../models/components/CatalogItemUpdateJobCreateQueryResourceObjectItems.md) | :heavy_check_mark:                                                                                                                  | Array of catalog items to update.                                                                                                   |

@@ -1,0 +1,9 @@
+# NoSMSMarketingUnsubscribed
+
+
+## Fields
+
+| Field                                                                                                    | Type                                                                                                     | Required                                                                                                 | Description                                                                                              |
+| -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| `subscription`                                                                                           | [UnsubscribedEnum](../../models/components/UnsubscribedEnum.md)                                          | :heavy_check_mark:                                                                                       | N/A                                                                                                      |
+| `filters`                                                                                                | List\<[NoSMSMarketingUnsubscribedFilters](../../models/components/NoSMSMarketingUnsubscribedFilters.md)> | :heavy_minus_sign:                                                                                       | N/A                                                                                                      |

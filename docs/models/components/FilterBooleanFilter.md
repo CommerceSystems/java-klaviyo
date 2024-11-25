@@ -1,0 +1,10 @@
+# FilterBooleanFilter
+
+
+## Fields
+
+| Field                                                                                 | Type                                                                                  | Required                                                                              | Description                                                                           |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| `type`                                                                                | [BooleanEnum](../../models/components/BooleanEnum.md)                                 | :heavy_check_mark:                                                                    | N/A                                                                                   |
+| `operator`                                                                            | [BooleanFilterFilterOperator](../../models/components/BooleanFilterFilterOperator.md) | :heavy_check_mark:                                                                    | Operators for boolean filters.                                                        |
+| `value`                                                                               | *boolean*                                                                             | :heavy_check_mark:                                                                    | N/A                                                                                   |

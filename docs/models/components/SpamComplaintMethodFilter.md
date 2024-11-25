@@ -1,0 +1,9 @@
+# SpamComplaintMethodFilter
+
+
+## Fields
+
+| Field                                                             | Type                                                              | Required                                                          | Description                                                       |
+| ----------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------- |
+| `field`                                                           | [MethodEnum](../../models/components/MethodEnum.md)               | :heavy_check_mark:                                                | N/A                                                               |
+| `method`                                                          | [SpamComplaintEnum](../../models/components/SpamComplaintEnum.md) | :heavy_check_mark:                                                | N/A                                                               |

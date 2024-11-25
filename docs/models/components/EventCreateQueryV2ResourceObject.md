@@ -1,0 +1,9 @@
+# EventCreateQueryV2ResourceObject
+
+
+## Fields
+
+| Field                                                                                                               | Type                                                                                                                | Required                                                                                                            | Description                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| `type`                                                                                                              | [EventEnum](../../models/components/EventEnum.md)                                                                   | :heavy_check_mark:                                                                                                  | N/A                                                                                                                 |
+| `attributes`                                                                                                        | [EventCreateQueryV2ResourceObjectAttributes](../../models/components/EventCreateQueryV2ResourceObjectAttributes.md) | :heavy_check_mark:                                                                                                  | N/A                                                                                                                 |

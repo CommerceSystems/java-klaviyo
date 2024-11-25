@@ -1,0 +1,9 @@
+# HasSMSMarketingSubscribed
+
+
+## Fields
+
+| Field                                                                                                  | Type                                                                                                   | Required                                                                                               | Description                                                                                            |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| `subscription`                                                                                         | [SubscribedEnum](../../models/components/SubscribedEnum.md)                                            | :heavy_check_mark:                                                                                     | N/A                                                                                                    |
+| `filters`                                                                                              | List\<[HasSMSMarketingSubscribedFilters](../../models/components/HasSMSMarketingSubscribedFilters.md)> | :heavy_minus_sign:                                                                                     | N/A                                                                                                    |

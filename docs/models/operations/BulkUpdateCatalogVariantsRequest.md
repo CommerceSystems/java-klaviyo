@@ -1,0 +1,9 @@
+# BulkUpdateCatalogVariantsRequest
+
+
+## Fields
+
+| Field                                                                                               | Type                                                                                                | Required                                                                                            | Description                                                                                         |
+| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `revision`                                                                                          | *String*                                                                                            | :heavy_check_mark:                                                                                  | API endpoint revision (format: YYYY-MM-DD[.suffix])                                                 |
+| `catalogVariantUpdateJobCreateQuery`                                                                | [CatalogVariantUpdateJobCreateQuery](../../models/components/CatalogVariantUpdateJobCreateQuery.md) | :heavy_check_mark:                                                                                  | N/A                                                                                                 |

@@ -1,0 +1,9 @@
+# PatchCampaignMessageResponseRelationships
+
+
+## Fields
+
+| Field                                                                                                              | Type                                                                                                               | Required                                                                                                           | Description                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| `campaign`                                                                                                         | [Optional\<PatchCampaignMessageResponseCampaign>](../../models/components/PatchCampaignMessageResponseCampaign.md) | :heavy_minus_sign:                                                                                                 | N/A                                                                                                                |
+| `template`                                                                                                         | [Optional\<PatchCampaignMessageResponseTemplate>](../../models/components/PatchCampaignMessageResponseTemplate.md) | :heavy_minus_sign:                                                                                                 | N/A                                                                                                                |

@@ -1,0 +1,10 @@
+# UpdateTrackingSettingRequest
+
+
+## Fields
+
+| Field                                                                                             | Type                                                                                              | Required                                                                                          | Description                                                                                       |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| `id`                                                                                              | *String*                                                                                          | :heavy_check_mark:                                                                                | The id of the tracking setting (account ID).                                                      |
+| `revision`                                                                                        | *String*                                                                                          | :heavy_check_mark:                                                                                | API endpoint revision (format: YYYY-MM-DD[.suffix])                                               |
+| `trackingSettingPartialUpdateQuery`                                                               | [TrackingSettingPartialUpdateQuery](../../models/components/TrackingSettingPartialUpdateQuery.md) | :heavy_check_mark:                                                                                | DTO for updating tracking settings                                                                |

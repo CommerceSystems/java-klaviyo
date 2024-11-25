@@ -1,0 +1,9 @@
+# FlowFlowTrackingSettingDynamicParam
+
+
+## Fields
+
+| Field                                                                                                           | Type                                                                                                            | Required                                                                                                        | Description                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| `type`                                                                                                          | [DynamicEnum](../../models/components/DynamicEnum.md)                                                           | :heavy_check_mark:                                                                                              | N/A                                                                                                             |
+| `value`                                                                                                         | [FlowTrackingSettingDynamicParamFlowValue](../../models/components/FlowTrackingSettingDynamicParamFlowValue.md) | :heavy_check_mark:                                                                                              | The value of the tracking parameter                                                                             |

@@ -1,0 +1,9 @@
+# PostMetricAggregateResponseAttributes
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `dates`                                                                                          | List\<[OffsetDateTime](https://docs.oracle.com/javase/8/docs/api/java/time/OffsetDateTime.html)> | :heavy_check_mark:                                                                               | The dates of the query range                                                                     |
+| `data`                                                                                           | List\<[MetricAggregateRowDTO](../../models/components/MetricAggregateRowDTO.md)>                 | :heavy_check_mark:                                                                               | Aggregation result data                                                                          |

@@ -1,0 +1,9 @@
+# GetFlowActionResponseRelationships
+
+
+## Fields
+
+| Field                                                                                                        | Type                                                                                                         | Required                                                                                                     | Description                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| `flow`                                                                                                       | [Optional\<GetFlowActionResponseFlow>](../../models/components/GetFlowActionResponseFlow.md)                 | :heavy_minus_sign:                                                                                           | N/A                                                                                                          |
+| `flowMessages`                                                                                               | [Optional\<GetFlowActionResponseFlowMessages>](../../models/components/GetFlowActionResponseFlowMessages.md) | :heavy_minus_sign:                                                                                           | N/A                                                                                                          |

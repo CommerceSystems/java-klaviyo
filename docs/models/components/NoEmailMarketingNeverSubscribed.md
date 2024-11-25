@@ -1,0 +1,9 @@
+# NoEmailMarketingNeverSubscribed
+
+
+## Fields
+
+| Field                                                                                                              | Type                                                                                                               | Required                                                                                                           | Description                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| `subscription`                                                                                                     | [NeverSubscribedEnum](../../models/components/NeverSubscribedEnum.md)                                              | :heavy_check_mark:                                                                                                 | N/A                                                                                                                |
+| `filters`                                                                                                          | List\<[NoEmailMarketingNeverSubscribedFilters](../../models/components/NoEmailMarketingNeverSubscribedFilters.md)> | :heavy_check_mark:                                                                                                 | N/A                                                                                                                |

@@ -1,0 +1,9 @@
+# GetCouponCodeResponseCompoundDocument
+
+
+## Fields
+
+| Field                                                                                                             | Type                                                                                                              | Required                                                                                                          | Description                                                                                                       |
+| ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `data`                                                                                                            | [GetCouponCodeResponseCompoundDocumentData](../../models/components/GetCouponCodeResponseCompoundDocumentData.md) | :heavy_check_mark:                                                                                                | N/A                                                                                                               |
+| `included`                                                                                                        | List\<[CouponResponseObjectResource](../../models/components/CouponResponseObjectResource.md)>                    | :heavy_minus_sign:                                                                                                | N/A                                                                                                               |

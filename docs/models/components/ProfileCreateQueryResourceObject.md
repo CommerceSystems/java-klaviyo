@@ -1,0 +1,9 @@
+# ProfileCreateQueryResourceObject
+
+
+## Fields
+
+| Field                                                                                                               | Type                                                                                                                | Required                                                                                                            | Description                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| `type`                                                                                                              | [ProfileEnum](../../models/components/ProfileEnum.md)                                                               | :heavy_check_mark:                                                                                                  | N/A                                                                                                                 |
+| `attributes`                                                                                                        | [ProfileCreateQueryResourceObjectAttributes](../../models/components/ProfileCreateQueryResourceObjectAttributes.md) | :heavy_check_mark:                                                                                                  | N/A                                                                                                                 |

@@ -1,0 +1,9 @@
+# PostCouponCodeResponseRelationships
+
+
+## Fields
+
+| Field                                                                                                | Type                                                                                                 | Required                                                                                             | Description                                                                                          |
+| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `coupon`                                                                                             | [Optional\<PostCouponCodeResponseCoupon>](../../models/components/PostCouponCodeResponseCoupon.md)   | :heavy_minus_sign:                                                                                   | N/A                                                                                                  |
+| `profile`                                                                                            | [Optional\<PostCouponCodeResponseProfile>](../../models/components/PostCouponCodeResponseProfile.md) | :heavy_minus_sign:                                                                                   | N/A                                                                                                  |

@@ -1,0 +1,9 @@
+# NoEmailMarketingUnsubscribed
+
+
+## Fields
+
+| Field                                                                                                                | Type                                                                                                                 | Required                                                                                                             | Description                                                                                                          |
+| -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| `subscription`                                                                                                       | [UnsubscribedEnum](../../models/components/UnsubscribedEnum.md)                                                      | :heavy_check_mark:                                                                                                   | N/A                                                                                                                  |
+| `filters`                                                                                                            | [JsonNullable\<NoEmailMarketingUnsubscribedFilters>](../../models/components/NoEmailMarketingUnsubscribedFilters.md) | :heavy_minus_sign:                                                                                                   | N/A                                                                                                                  |

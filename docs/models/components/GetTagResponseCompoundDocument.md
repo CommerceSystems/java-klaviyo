@@ -1,0 +1,9 @@
+# GetTagResponseCompoundDocument
+
+
+## Fields
+
+| Field                                                                                               | Type                                                                                                | Required                                                                                            | Description                                                                                         |
+| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `data`                                                                                              | [GetTagResponseCompoundDocumentData](../../models/components/GetTagResponseCompoundDocumentData.md) | :heavy_check_mark:                                                                                  | N/A                                                                                                 |
+| `included`                                                                                          | List\<[TagGroupResponseObjectResource](../../models/components/TagGroupResponseObjectResource.md)>  | :heavy_minus_sign:                                                                                  | N/A                                                                                                 |
