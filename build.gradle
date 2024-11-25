@@ -62,6 +62,7 @@ publishing {
     }
 }
 
+
 tasks.register('packageForUpload', Zip) {
     archiveBaseName.set('klaviyo-java-sdk')
     archiveVersion.set(version)
