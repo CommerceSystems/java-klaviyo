@@ -11,8 +11,13 @@ import com.commercesystems.klaviyo_java.utils.Utils.JsonShape;
 import com.commercesystems.klaviyo_java.utils.Utils.TypeReferenceWithShape;
 import com.commercesystems.klaviyo_java.utils.Utils;
 import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.DeserializationContext;
+import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+
+import java.io.IOException;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
@@ -124,18 +129,30 @@ public class Conditions {
     public static final class _Deserializer extends OneOfDeserializer<Conditions> {
 
         public _Deserializer() {
-            super(Conditions.class, false,
-                  TypeReferenceWithShape.of(new TypeReference<ProfileMetricCondition>() {}, JsonShape.DEFAULT),
-                  TypeReferenceWithShape.of(new TypeReference<ProfilePostalCodeDistanceCondition>() {}, JsonShape.DEFAULT),
-                  TypeReferenceWithShape.of(new TypeReference<ProfileHasGroupMembershipCondition>() {}, JsonShape.DEFAULT),
-                  TypeReferenceWithShape.of(new TypeReference<ProfilePredictiveAnalyticsStringCondition>() {}, JsonShape.DEFAULT),
-                  TypeReferenceWithShape.of(new TypeReference<ProfilePredictiveAnalyticsNumericCondition>() {}, JsonShape.DEFAULT),
-                  TypeReferenceWithShape.of(new TypeReference<ProfileRegionCondition>() {}, JsonShape.DEFAULT),
-                  TypeReferenceWithShape.of(new TypeReference<ProfilePropertyCondition>() {}, JsonShape.DEFAULT),
-                  TypeReferenceWithShape.of(new TypeReference<ProfileNoGroupMembershipCondition>() {}, JsonShape.DEFAULT),
-                  TypeReferenceWithShape.of(new TypeReference<ProfileMarketingConsentCondition>() {}, JsonShape.DEFAULT));
+            super(Conditions.class, false, // non-strict mode
+                    TypeReferenceWithShape.of(new TypeReference<ProfileMetricCondition>() {}, JsonShape.DEFAULT),
+                    TypeReferenceWithShape.of(new TypeReference<ProfilePostalCodeDistanceCondition>() {}, JsonShape.DEFAULT),
+                    TypeReferenceWithShape.of(new TypeReference<ProfileHasGroupMembershipCondition>() {}, JsonShape.DEFAULT),
+                    TypeReferenceWithShape.of(new TypeReference<ProfilePredictiveAnalyticsStringCondition>() {}, JsonShape.DEFAULT),
+                    TypeReferenceWithShape.of(new TypeReference<ProfilePredictiveAnalyticsNumericCondition>() {}, JsonShape.DEFAULT),
+                    TypeReferenceWithShape.of(new TypeReference<ProfileRegionCondition>() {}, JsonShape.DEFAULT),
+                    TypeReferenceWithShape.of(new TypeReference<ProfilePropertyCondition>() {}, JsonShape.DEFAULT),
+                    TypeReferenceWithShape.of(new TypeReference<ProfileNoGroupMembershipCondition>() {}, JsonShape.DEFAULT),
+                    TypeReferenceWithShape.of(new TypeReference<ProfileMarketingConsentCondition>() {}, JsonShape.DEFAULT));
+        }
+
+        @Override
+        public Conditions deserialize(JsonParser p, DeserializationContext ctxt) throws IOException {
+            try {
+                return super.deserialize(p, ctxt); // Try the standard logic
+            } catch (JsonMappingException e) {
+                // Log a warning for unmatched types and ignore them
+                System.err.println("WARNING: Unmatched type encountered during deserialization. Skipping: " + e.getMessage());
+                return null; // Return null for unmatched types
+            }
         }
     }
+
     
     @Override
     public String toString() {
