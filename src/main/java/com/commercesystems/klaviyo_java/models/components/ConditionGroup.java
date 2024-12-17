@@ -17,74 +17,80 @@ import java.util.Objects;
 
 public class ConditionGroup {
 
-    @JsonProperty("conditions")
-    private List<Conditions> conditions;
+//    @JsonProperty("conditions")
+//    private List<Conditions> conditions;
 
     @JsonCreator
     public ConditionGroup(
-            @JsonProperty("conditions") List<Conditions> conditions) {
-        Utils.checkNotNull(conditions, "conditions");
-        this.conditions = conditions;
+//            @JsonProperty("conditions") List<Conditions> conditions
+    ) {
+//        Utils.checkNotNull(conditions, "conditions");
+//        this.conditions = conditions;
     }
 
-    @JsonIgnore
-    public List<Conditions> conditions() {
-        return conditions;
-    }
+//    @JsonIgnore
+//    public List<Conditions> conditions() {
+//        return conditions;
+//    }
 
     public final static Builder builder() {
         return new Builder();
     }
 
-    public ConditionGroup withConditions(List<Conditions> conditions) {
-        Utils.checkNotNull(conditions, "conditions");
-        this.conditions = conditions;
+    public ConditionGroup withConditions(
+//            List<Conditions> conditions
+    ) {
+//        Utils.checkNotNull(conditions, "conditions");
+//        this.conditions = conditions;
         return this;
     }
     
-    @Override
-    public boolean equals(java.lang.Object o) {
-        if (this == o) {
-            return true;
-        }
-        if (o == null || getClass() != o.getClass()) {
-            return false;
-        }
-        ConditionGroup other = (ConditionGroup) o;
-        return 
-            Objects.deepEquals(this.conditions, other.conditions);
-    }
-    
-    @Override
-    public int hashCode() {
-        return Objects.hash(
-            conditions);
-    }
-    
-    @Override
-    public String toString() {
-        return Utils.toString(ConditionGroup.class,
-                "conditions", conditions);
-    }
-    
+//    @Override
+//    public boolean equals(java.lang.Object o) {
+//        if (this == o) {
+//            return true;
+//        }
+//        if (o == null || getClass() != o.getClass()) {
+//            return false;
+//        }
+//        ConditionGroup other = (ConditionGroup) o;
+//
+//        return
+//            Objects.deepEquals(this.conditions, other.conditions);
+//    }
+//
+//    @Override
+//    public int hashCode() {
+//        return Objects.hash(
+//            conditions);
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return Utils.toString(ConditionGroup.class,
+//                "conditions", conditions);
+//    }
+//
     public final static class Builder {
  
-        private List<Conditions> conditions;  
+//        private List<Conditions> conditions;
         
         private Builder() {
           // force use of static builder() method
         }
 
-        public Builder conditions(List<Conditions> conditions) {
-            Utils.checkNotNull(conditions, "conditions");
-            this.conditions = conditions;
+        public Builder conditions(
+//                List<Conditions> conditions
+        ) {
+//            Utils.checkNotNull(conditions, "conditions");
+//            this.conditions = conditions;
             return this;
         }
         
-        public ConditionGroup build() {
-            return new ConditionGroup(
-                conditions);
-        }
+//        public ConditionGroup build() {
+//            return new ConditionGroup(
+//                conditions);
+//        }
     }
 }
 
